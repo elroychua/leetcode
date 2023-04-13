@@ -5,6 +5,7 @@ def contains_duplicate(nums):
             if nums[i] == nums[j]:
                 return True
     return False
+    # Using a set to store the values
     # Time: O(n) | Space: O(n)
     # set_nums = set()
     # for n in nums:

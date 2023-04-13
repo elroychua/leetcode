@@ -1,4 +1,5 @@
 def isAnagram(s, t):
+        #Using ord('a') - helps to find ascii value of character
         #Time: O(n) | Space: O(n)
         if len(s) != len(t):
             return False

@@ -7,5 +7,8 @@ Objective(finished 1 - 2 questions per day), finishing interview prep on 11 July
 
 ### 1. Arrays & Hashing
 
-- Contains Duplicate
-- Valid Anagram
+✅ Contains Duplicate
+✅ Valid Anagram
+- Two sum
+- Group Anagrams
+

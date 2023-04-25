@@ -5,13 +5,11 @@ def groupAnagrams(strs):
     # Time: O(m * n log n) | Space: O(m * n log n)
     # array count [] count chars from a -z, how many each char.
     res = defaultdict(list)
-    for s in strs:
-        count = [0] * 26  # set array to 26 0's
-        for c in s:  # for each char in string
-            count[ord(c)-ord("a")] += 1  # gives 0-25
-        # after for loop, count will hold the number of each char
-        res[tuple(count)].append(s)
-        # tuple(count) is the key, s is the value
+    for str in strs:
+        count = [0] * 26
+        for c in str:
+            count[ord(c) - ord("a")] += 1
+        res[tuple(count)].append(str)
     return res.values()
 
 
